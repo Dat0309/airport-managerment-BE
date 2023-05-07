@@ -7,6 +7,7 @@ import airlineRouter from "./Routes/airlineRouter.js";
 import airPlaneTypeRouter from "./Routes/airPlaneTypeRouter.js";
 import fightRouter from "./Routes/fightRouter.js";
 import terminalRouter from "./Routes/terminalRouter.js";
+import cors from "cors";
 
 dotenv.config();
 connectDatabase();
@@ -36,6 +37,8 @@ app.use(function (req, res, next) {
   // Pass to next layer of middleware
   next();
 });
+
+app.use(cors())
 
 // API
 app.use("/api/v1/import", ImportData);
