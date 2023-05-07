@@ -1,61 +1,51 @@
 import express from "express";
 import asyncHandler from "express-async-handler";
-import babershops from "./data/babershopData.js";
-import hairstyles from "./data/hairstyleData.js";
-import orders from "./data/orderData.js";
-import services from "./data/servicesData.js";
-import users from "./data/userData.js";
-import BaberShop from "./Models/babershop.js";
-import HairStyle from "./Models/hairstyle.js";
-import Order from "./Models/order.js";
-import Services from "./Models/services.js";
-import User from "./Models/user.js";
+import Airlines from "./Models/airLines.js";
+import airlines from "./data/airLineData.js";
+import AirplaneType from "./Models/airPlaneType.js";
+import airplanetypes from "./data/airPlaneTypeData.js";
+import Fight from "./Models/fight.js";
+import fights from "./data/fightData.js";
+import Terminal from "./Models/terminal.js";
+import terminals from "./data/terminalData.js";
 
 
 const ImportData = express.Router();
 
+
 ImportData.post(
-  "/user",
+  "/airLine",
   asyncHandler(async (req, res) => {
-    await User.deleteMany({});
-    const importUser = await User.insertMany(users);
-    res.send({ importUser });
+    await Airlines.deleteMany({});
+    const importAirline = await Airlines.insertMany(airlines);
+    res.send({importAirline});
   })
 );
 
 ImportData.post(
-  "/babershop",
+  "/airPlaneType",
   asyncHandler(async (req, res) => {
-    await BaberShop.deleteMany({});
-    const importBarberShop = await BaberShop.insertMany(babershops);
-    res.send({importBarberShop});
+    await AirplaneType.deleteMany({});
+    const importAirPlane =  await AirplaneType.insertMany(airplanetypes);
+    res.send({importAirPlane});
   })
 );
 
 ImportData.post(
-  "/hairstyle",
+  "/fight",
   asyncHandler(async (req, res) => {
-    await HairStyle.deleteMany({});
-    const importHairStyle =  await HairStyle.insertMany(hairstyles);
-    res.send({importHairStyle});
+    await Fight.deleteMany({});
+    const importFight = await Fight.insertMany(fights);
+    res.send({importFight});
   })
 );
 
 ImportData.post(
-  "/services",
+  "/terminal",
   asyncHandler(async (req, res) => {
-    await Services.deleteMany({});
-    const importService = await Services.insertMany(services);
-    res.send({importService});
-  })
-);
-
-ImportData.post(
-  "/orders",
-  asyncHandler(async (req, res) => {
-    await Order.deleteMany({});
-    const importOrders = await Order.insertMany(orders);
-    res.send({importOrders});
+    await Terminal.deleteMany({});
+    const importTerminal = await Terminal.insertMany(terminals);
+    res.send({importTerminal});
   })
 );
 
