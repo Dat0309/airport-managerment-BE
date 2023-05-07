@@ -8,6 +8,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "BAMBOO",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "vn224",
@@ -18,6 +22,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VJ526",
@@ -28,6 +36,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietjet",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
     {
         fight_no: "VJ160    ",
@@ -37,7 +49,11 @@ const fights = [
         arrival: "2023-04-20T00:43:35.862Z",
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac5",
-        airplane_type_id: "645731f7307b6fbda26ffac0"
+        airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietjet",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
     {
         fight_no: "BL6020",
@@ -48,6 +64,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabc",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "JetstarPacific",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435592/images/jestar_pacific_dfivmw.jpg"
     },
     {
         fight_no: "QH284",
@@ -58,6 +78,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "BAMBOO",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "QH280",
@@ -68,6 +92,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "BAMBOO",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "VN270",
@@ -78,6 +106,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VN204",
@@ -88,6 +120,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VN186",
@@ -98,6 +134,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VJ460",
@@ -108,6 +148,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietjet",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
      {
         fight_no: "BL6006",
@@ -118,6 +162,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VJ564",
@@ -128,6 +176,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietjet",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
     {
         fight_no: "VN1716",
@@ -138,6 +190,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "CHN77999",
@@ -148,6 +204,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VJ430",
@@ -158,6 +218,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietjet",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
     {
         fight_no: "QH1038",
@@ -168,6 +232,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "BAMBOO",
+        terminal: "T2",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "VN1614",
@@ -178,6 +246,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "QH1262",
@@ -188,6 +260,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac0",
+        airline: "BAMBOO",
+        terminal: "T1",
+        airplane_type: "Arrived",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "FX5775",
@@ -198,6 +274,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabd",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "FedEX",
+        terminal: "T1",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435594/images/logo-belt_n5bo8y.jpg"
     },
     {
         fight_no: "VN205",
@@ -208,6 +288,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "Vietnam Airlines",
+        terminal: "T1",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VN157",
@@ -218,6 +302,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "Vietnam Airlines",
+        terminal: "T2",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "VJ565",
@@ -228,6 +316,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffabb",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "Vietjet",
+        terminal: "T2",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435595/images/VietjetAir_qdclby.jpg"
     },
     {
         fight_no: "QH1033",
@@ -238,6 +330,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "BAMBOO",
+        terminal: "T2",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "VN1615",
@@ -248,6 +344,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "Vietnam Airlines",
+        terminal: "T2",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "QH1413",
@@ -258,6 +358,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab9",
         terminal_id: "64573200307b6fbda26ffac5",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "Vietnam Airlines",
+        terminal: "T2",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435598/images/VietnamAirline_yhaubu.jpg"
     },
     {
         fight_no: "QH1261",
@@ -268,6 +372,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "BAMBOO",
+        terminal: "T1",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
     {
         fight_no: "QH1203",
@@ -278,6 +386,10 @@ const fights = [
         airline_id: "645731cf307b6fbda26ffab8",
         terminal_id: "64573200307b6fbda26ffac4",
         airplane_type_id: "645731f7307b6fbda26ffac1",
+        airline: "BAMBOO",
+        terminal: "T1",
+        airplane_type: "Departed",
+        airline_img: "https://res.cloudinary.com/devdaz/image/upload/v1683435590/images/BambooAirlway_kvuuqk.jpg"
     },
 ];
 

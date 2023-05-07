@@ -27,16 +27,32 @@ const fightSchema = mongoose.Schema(
             required: true,
             ref: "Airlines",
         },
+        airline: {
+            type: String,
+            required: true,
+        },
         terminal_id: {
             type: mongoose.Schema.Types.ObjectId,
             required: true,
             ref: "Terminal",
+        },
+        termianl: {
+            type: String,
+            required:true,
         },
         airplane_type_id:{
             type: mongoose.Schema.Types.ObjectId,
             required: true,
             ref: "AirplanceType",
         },
+        airplane_type:{
+            type: String,
+            required: true,
+        },
+        airline_img: {
+            type: String,
+            required: true,
+        }
     },
     {
         timestamps: true,
