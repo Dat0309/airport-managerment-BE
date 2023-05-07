@@ -36,7 +36,7 @@ const fightSchema = mongoose.Schema(
             required: true,
             ref: "Terminal",
         },
-        termial: {
+        terminal: {
             type: String,
             required:true,
         },
