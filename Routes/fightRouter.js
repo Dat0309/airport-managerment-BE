@@ -18,7 +18,7 @@ fightRouter.get(
         const id = req.params.id;
         const fights = await Fight.find({ airplane_type_id: id }).sort({ _id: -1 });
 
-        res.json({ fights })
+        res.json(fights)
     })
 );
 
