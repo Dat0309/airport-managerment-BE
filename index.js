@@ -3,13 +3,10 @@ import dotenv from "dotenv";
 import connectDatabase from "./config/MongoDb.js";
 import ImportData from "./DataImport.js";
 import { errorHandler, notFound } from "./Middleware/Errors.js";
-
-import babershopRoute from "./Routes/baberRouter.js";
-import userRouter from "./Routes/userRouter.js";
-import hairstyleRoute from "./Routes/hairstyleRouter.js";
-import orderRouter from "./Routes/orderRouter.js";
-import serviceRoute from "./Routes/serviceRouter.js";
-import extracostRouter from "./Routes/extracostRouter.js";
+import airlineRouter from "./Routes/airlineRouter.js";
+import airPlaneTypeRouter from "./Routes/airPlaneTypeRouter.js";
+import fightRouter from "./Routes/fightRouter.js";
+import terminalRouter from "./Routes/terminalRouter.js";
 
 dotenv.config();
 connectDatabase();
@@ -42,12 +39,10 @@ app.use(function (req, res, next) {
 
 // API
 app.use("/api/v1/import", ImportData);
-app.use("/api/v1/babershops", babershopRoute);
-app.use("/api/v1/user", userRouter);
-app.use("/api/v1/hairstyles", hairstyleRoute);
-app.use("/api/v1/orders", orderRouter);
-app.use("/api/v1/services", serviceRoute);
-app.use("/api/v1/extracosts", extracostRouter);
+app.use("/api/v1/airline", airlineRouter);
+app.use("/api/v1/airPlane", airPlaneTypeRouter);
+app.use("/api/v1/fight", fightRouter);
+app.use("/api/v1/terminal", terminalRouter);
 
 app.get("/api/config/paypal", (req, res) => {
   res.send(

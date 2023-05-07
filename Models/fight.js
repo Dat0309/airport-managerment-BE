@@ -27,6 +27,16 @@ const fightSchema = mongoose.Schema(
             required: true,
             ref: "Airlines",
         },
+        terminal_id: {
+            type: mongoose.Schema.Types.ObjectId,
+            required: true,
+            ref: "Terminal",
+        },
+        airplane_type_id:{
+            type: mongoose.Schema.Types.ObjectId,
+            required: true,
+            ref: "AirplanceType",
+        },
     },
     {
         timestamps: true,
